@@ -1,0 +1,14 @@
+.btn {
+  padding: 17px 39px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.btn_theme_red {
+  background: #E01F3D;
+  transition: 0.2s;
+}
