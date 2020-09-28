@@ -1,9 +1,12 @@
 .hero{
-    background:$grey, url(../../imgbeats/Ellipse5.png) right center no-repeat;    
+    background: url(../imgbeats/Ellipse5.png) right 10% center;
+    background-color: $grey;
+    background-repeat: no-repeat;
     height: 100vh;
     min-height: 650px;
     color: #292929;
     }
+
   
     .hero_title-section{
         width: 45%;

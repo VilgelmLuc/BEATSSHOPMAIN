@@ -14,6 +14,7 @@ body {
   -webkit-font-smoothing: analiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  color: #666666;
 }
 
 .wrapper {
@@ -76,8 +77,9 @@ footer {
 }
 
 .hero {
-  background: url(../../imgbeats/Ellipse5.png) right center no-repeat;
-  background: #c4c4c4;
+  background: url(../imgbeats/Ellipse5.png) right 10% center;
+  background-color: #c4c4c4;
+  background-repeat: no-repeat;
   height: 100vh;
   min-height: 650px;
   color: #292929;
@@ -194,4 +196,83 @@ footer {
   background: #FFFFFF;
   color: #E01F3D;
   transition: 0.2s;
+}
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section_title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.benefits {
+  display: flex;
+}
+
+.benefits_item {
+  flex: 1;
+  margin: 0 3%;
+}
+.benefits_item:before {
+  content: url(../imgbeats/Combinedshape.png);
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: translate(50%);
+}
+.benefits_item:first-child {
+  margin-left: 0;
+}
+.benefits_item:last-child {
+  margin-right: 0;
+}
+
+.benefits_section:before {
+  content: url(../imgbeats/vector2.png);
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+}
+
+.benefit {
+  text-align: center;
+}
+
+.benefit_image_wrapper {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  background: #F2F5F4;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.benefit_icon {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.headline_title {
+  margin-bottom: 25px;
+  color: #292929;
+}
+
+.headline_subtitle {
+  text-align: center;
+  margin-bottom: 62px;
+  padding: 0 20%;
 }
