@@ -7,6 +7,7 @@
     border-radius: 100px;
     line-height: 1;
     text-decoration: none;
+    border: none;
   
   &.btn_theme_red {
     background: $red;
@@ -16,5 +17,16 @@
         color: $red;
         transition: 0.2s;
     }
+}
+
+&.btn_theme_transparent {
+    background: transparent;
+    color: #FFFFFF;
+    text-transform: none;
+    &:hover {
+        color: $red;
+        transition: 0.2s;
+    }
+   
 }
   }

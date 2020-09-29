@@ -1,0 +1,49 @@
+.radio{
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom:18px;
+    margin-right: 18px;
+
+    &_checkbox{
+        .radio_visible{
+            border-radius: 2px;
+            &:before{
+                background:url("../imgbeats/galochka.png") center center no-repeat;
+            }
+        }
+    }
+}
+
+.radio_elem{
+  display: none; 
+  
+  &:checked ~ .radio_visible{
+     &:before{
+    display: block;
+    }
+  }
+}
+
+.radio_visible{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-right: 10px;
+    
+    &:before{
+        content: "";
+        width: 14px;
+height: 14px;
+background:$red;
+border-radius: 50%;
+position: absolute;
+display: none;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+    }
+}

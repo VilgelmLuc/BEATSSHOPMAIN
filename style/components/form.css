@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+}
+
+.form_col {
+  margin-right: 20px;
+  flex: 1;
+}
+.form_col:last-child {
+  margin-right: 0;
+}
+
+.form_row {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.form_block {
+  margin-right: 20px;
+}
+.form_block:last-child {
+  margin-right: 0;
+}

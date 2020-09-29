@@ -187,6 +187,7 @@ footer {
   border-radius: 100px;
   line-height: 1;
   text-decoration: none;
+  border: none;
 }
 .btn.btn_theme_red {
   background: #E01F3D;
@@ -194,6 +195,15 @@ footer {
 }
 .btn.btn_theme_red:hover {
   background: #FFFFFF;
+  color: #E01F3D;
+  transition: 0.2s;
+}
+.btn.btn_theme_transparent {
+  background: transparent;
+  color: #FFFFFF;
+  text-transform: none;
+}
+.btn.btn_theme_transparent:hover {
   color: #E01F3D;
   transition: 0.2s;
 }
@@ -368,4 +378,98 @@ footer {
   bottom: 0;
   right: 0;
   display: block;
+}
+
+.order_section {
+  background-color: black;
+  color: #ffffff;
+}
+
+.form {
+  display: flex;
+}
+
+.form_col {
+  flex: 1;
+  margin-right: 20px;
+}
+.form_col:last-child {
+  margin-right: 0;
+}
+
+.form_row {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.form_block {
+  flex: 1;
+  margin-right: 20px;
+}
+.form_block:last-child {
+  margin-right: 0;
+}
+
+.form_input {
+  width: 100%;
+  border: none;
+  padding: 18px 11px;
+  border: solid 3px transparent;
+  border-radius: 5px;
+}
+.form_input_textarea {
+  height: 180px;
+  resize: none;
+}
+.form_input:focus {
+  border-color: #E01F3D;
+  outline: none;
+}
+
+.form_controls {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radio {
+  display: flex;
+  cursor: pointer;
+  -webkit-user-select: none;
+          user-select: none;
+  margin-bottom: 18px;
+  margin-right: 18px;
+}
+.radio_checkbox .radio_visible {
+  border-radius: 2px;
+}
+.radio_checkbox .radio_visible:before {
+  background: url("../imgbeats/galochka.png") center center no-repeat;
+}
+
+.radio_elem {
+  display: none;
+}
+.radio_elem:checked ~ .radio_visible:before {
+  display: block;
+}
+
+.radio_visible {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  border-radius: 50%;
+  background: #ffffff;
+  margin-right: 10px;
+}
+.radio_visible:before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #E01F3D;
+  border-radius: 50%;
+  position: absolute;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
