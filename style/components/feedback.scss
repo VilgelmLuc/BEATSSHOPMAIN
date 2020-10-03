@@ -1,4 +1,4 @@
-.feedback_display{
+.feedback__display{
     background:#F8FAF9;
 padding: 50px 45px 34px;
 margin-bottom: 30px;
@@ -17,37 +17,37 @@ top: -65px;
 }
 }
 
-.feedback_display_inner{
+.feedback__display--inner{
 display: flex;
 }
 
-.feedback_avatar{
+.feedback__avatar{
     width: 253px;
     height: 264px;
     margin-right: 40px;
 }
-.feedback_avatar_img{
+.feedback__avatar_img{
     object-fit: cover;
     width: 100%;
     height: 100%;
     
 }
-.feedback_content{
+.feedback__content{
     flex: 1;
     margin-right: 20px;
 }
- .feedback_title{
+ .feedback__title{
      font-size: 30px;
      font-weight: bold;
      margin-bottom: 27px;
      color: black;
  }
- .feedback_text{
+ .feedback__text{
      margin-bottom: 38px;
      color: #666666;
  }
 
- .feedback_author{
+ .feedback__author{
      font-size: 18px;
      font-weight: bold;
 color:black;

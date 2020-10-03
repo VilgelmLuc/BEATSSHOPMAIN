@@ -1,4 +1,4 @@
-.interactive_avatar{
+.interactive__avatar{
     width: 74px;
     height: 74px;
 overflow: hidden;
@@ -7,12 +7,12 @@ border: 6px solid transparent;
 border-radius: 50%;
 position: relative;
 overflow: hidden;
-&_active{
+&--active{
     border-color: $red;
 }
 }
 
-.intaractive_avatar_img{
+.intaractive__avatar-img{
     border-radius: 50%;
     display: block;
     width: 100%;
@@ -21,14 +21,14 @@ overflow: hidden;
    
 }
 
-.feedback_switcher{
+.feedback__switcher{
     display: flex;
 text-align: center;
 justify-content: center;
 
 }
 
-.intaractive_avater_link{
+.intaractive__avatar-link{
     position: absolute;
     top: 0;
     left:0;

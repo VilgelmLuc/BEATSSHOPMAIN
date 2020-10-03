@@ -7,18 +7,18 @@ margin-bottom: 90px;
 margin-top: 35px;
 }
 
-.menu_list{
+.menu__list{
     display: flex;
     align-items: center;
 
 }
-.menu_item{
+.menu__item{
     margin-right: 15px;
     &:last-child{
         margin-right: 0;
     }
 }
-.menu_link{
+.menu__link{
     text-decoration: none;
 
 }

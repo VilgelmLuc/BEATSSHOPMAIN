@@ -1,7 +1,7 @@
 .benefits{
 display: flex;
 }
-.benefits_item{
+.benefits__item{
  flex: 1;
  margin: 0 10%; 
  position: relative;
@@ -21,7 +21,7 @@ transform: translate(50%)
 content: url(../imgbeats/Combinedshape.png) hidden ;
  }
 }
-.benefits_section:before{
+.benefits__section:before{
 content: url(../imgbeats/vector2.png);
 position: absolute;
 bottom: -80px;

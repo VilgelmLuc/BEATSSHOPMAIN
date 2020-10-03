@@ -2,21 +2,37 @@
     position: fixed;
     top: 35%;
     right: 4%;
+    z-index: $z-index-menu;
 
 }
 
 .fixed-menu__item{
-  margin-bottom: 5px;
+  margin-bottom: 1%;
   &--active{
-    border-color: $red;  
+      .fixed-menu__link{
+    border-color:$red;
+     } 
   }  
 }
 
 
 .fixed-menu__link{
-   width: 16px;
-   height: 16px;
+   width: 18px;
+   height: 18px;
    border-radius: 50%;
-   border: 1px solid transparent; 
+   border: 3px solid transparent; 
    display: block;
+   position: relative;
+   &:before{
+       content: "";
+       display: block;
+       width: 9px;
+       height: 9px;
+       border-radius: 50%;
+       background: #292929;;
+       position: absolute;
+       top:50%;
+       left: 50%;
+       text-transform: translate(-50%, -50%);
+   }
 }
