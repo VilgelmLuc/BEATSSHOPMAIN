@@ -1,5 +1,5 @@
 .hero{
-    background: url(../imgbeats/Ellipse5.png) right 10% center;
+    background: url(../imgbeats/Ellipse5.png) right 24% top 40%;
     background-color: $grey;
     background-repeat: no-repeat;
     height: 100vh;
@@ -14,7 +14,7 @@
     .hero_container{
         display: flex;
         flex-direction: column;
-       justify-content: space-between;
+       justify-content: flex-start;
       height: 100%;  
       padding: 97 0 70;
 

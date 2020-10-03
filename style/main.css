@@ -77,7 +77,7 @@ footer {
 }
 
 .hero {
-  background: url(../imgbeats/Ellipse5.png) right 10% center;
+  background: url(../imgbeats/Ellipse5.png) right 24% top 40%;
   background-color: #c4c4c4;
   background-repeat: no-repeat;
   height: 100vh;
@@ -92,7 +92,7 @@ footer {
 .hero_container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   height: 100%;
   padding: 97 0 70;
 }
@@ -115,6 +115,7 @@ footer {
 
 .header {
   display: flex;
+  font-family: Alegreya Sans;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 90px;
@@ -188,6 +189,7 @@ footer {
   line-height: 1;
   text-decoration: none;
   border: none;
+  margin-bottom: 70px;
 }
 .btn.btn_theme_red {
   background: #E01F3D;
@@ -214,6 +216,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
 }
 
 .section_title {
@@ -230,13 +233,14 @@ footer {
 
 .benefits_item {
   flex: 1;
-  margin: 0 3%;
+  margin: 0 10%;
+  position: relative;
 }
 .benefits_item:before {
   content: url(../imgbeats/Combinedshape.png);
   position: absolute;
-  top: 30px;
-  right: 0;
+  top: 20%;
+  right: -50%;
   transform: translate(50%);
 }
 .benefits_item:first-child {
@@ -244,6 +248,7 @@ footer {
 }
 .benefits_item:last-child {
   margin-right: 0;
+  content: url(../imgbeats/Combinedshape.png) hidden;
 }
 
 .benefits_section:before {
@@ -251,6 +256,9 @@ footer {
   position: absolute;
   bottom: -80px;
   left: 0;
+}
+.benefits_section:before:last-child {
+  display: none;
 }
 
 .benefit {
@@ -369,6 +377,7 @@ footer {
 .feedback_switcher {
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .intaractive_avater_link {
@@ -472,4 +481,25 @@ footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 35%;
+  right: 4%;
+}
+
+.fixed-menu__item {
+  margin-bottom: 5px;
+}
+.fixed-menu__item--active {
+  border-color: #E01F3D;
+}
+
+.fixed-menu__link {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  display: block;
 }
