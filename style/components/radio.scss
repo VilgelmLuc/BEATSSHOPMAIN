@@ -15,7 +15,7 @@
     }
 }
 
-.radio_elem{
+.radio__elem{
   display: none; 
   
   &:checked ~ .radio_visible{
@@ -25,7 +25,7 @@
   }
 }
 
-.radio_visible{
+.radio__visible{
     width: rem(26px);
     height: rem(26px);
     position: relative;

@@ -10,7 +10,7 @@
     border: none;
     margin-bottom: rem(70px);
   
-  &.btn__theme_red {
+  &.btn__theme--red {
     background: $red;
     color: #FFFFFF;
     &:hover {
@@ -20,7 +20,7 @@
     }
 }
 
-&.btn_theme_transparent {
+&.btn__theme--transparent {
     background: transparent;
     color: #FFFFFF;
     text-transform: none;
