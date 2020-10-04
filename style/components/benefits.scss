@@ -17,7 +17,11 @@ transform: translate(50%)
      margin-left: 0;
  }  
  &:last-child{
+     &:before{
+        content: "";
+     }
      margin-right: 0;
+     
  }
 }
 .benefits__section:before{
