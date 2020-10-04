@@ -4,13 +4,13 @@
 
 
 @mixin tablets{
-    @media screen and (max-width: $tablets){
-    @contetnt;
+    @media screen and (max-width: $tablets) {
+    @content;
 }
 }
 
 @mixin phones{
-    @media screen and (max-width: $phones){
-    @contetnt;
+    @media screen and (max-width: $phones) {
+    @content;
 }
 }
