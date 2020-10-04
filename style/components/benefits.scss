@@ -18,13 +18,12 @@ transform: translate(50%)
  }  
  &:last-child{
      margin-right: 0;
-content: url(../imgbeats/Combinedshape.png) hidden ;
  }
 }
 .benefits__section:before{
 content: url(../imgbeats/vector2.png);
 position: absolute;
-bottom: -80px;
+bottom: rem(-80px);
 left: 0; 
 &:last-child{
 display: none;} 

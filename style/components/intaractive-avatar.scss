@@ -1,9 +1,9 @@
 .interactive__avatar{
-    width: 74px;
-    height: 74px;
+    width: rem(74px);
+    height: rem(74px);
 overflow: hidden;
 position: relative;
-border: 6px solid transparent;
+border: rem(6px) solid transparent;
 border-radius: 50%;
 position: relative;
 overflow: hidden;

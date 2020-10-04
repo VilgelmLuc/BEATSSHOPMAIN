@@ -3,7 +3,7 @@
 }
 
 .form_col {
-  margin-right: 20px;
+  margin-right: rem(20px);
   flex: 1;
 }
 .form_col:last-child {
@@ -12,11 +12,11 @@
 
 .form_row {
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: rem(18px);
 }
 
 .form_block {
-  margin-right: 20px;
+  margin-right: rem(20px);
 }
 .form_block:last-child {
   margin-right: 0;

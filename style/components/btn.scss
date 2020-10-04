@@ -1,14 +1,14 @@
 .btn {
    
-    padding: 17px 39px;
+    padding: rem(18px) rem(40px);
     font-weight: bold;
-    font-size: 18px;     
+    font-size: rem(18px);     
     text-transform: uppercase;  
-    border-radius: 100px;
+    border-radius: rem(100px);
     line-height: 1;
     text-decoration: none;
     border: none;
-    margin-bottom: 70px;
+    margin-bottom: rem(70px);
   
   &.btn__theme_red {
     background: $red;

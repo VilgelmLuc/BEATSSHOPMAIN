@@ -1,11 +1,11 @@
 .btn {
-  padding: 17px 39px;
+  padding: rem(17px) rem(39px);
   color: #FFFFFF;
   font-weight: bold;
-  font-size: 14px;
+  font-size: rem(14px);
   display: inline-block;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: rem(100px);
 }
 
 .btn_theme_red {

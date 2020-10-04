@@ -1,9 +1,9 @@
 .hero{
-    background: url(../imgbeats/Ellipse5.png) right 24% top 40%;
+    background: url(../imgbeats/Ellipse5.png) right 24% top 34%;
     background-color: $grey;
     background-repeat: no-repeat;
     height: 100vh;
-    min-height: 650px;
+    min-height: rem(650px);
     color: #292929;
     }
 
@@ -23,13 +23,13 @@
         font-family: "Play";
         font-style: normal;
         font-weight: bold;
-        font-size: 48px;
-        line-height: 52px;
-        margin-bottom: 15px;
+        font-size: rem(48px);
+        line-height: rem(52px);
+        margin-bottom: rem(15px);
     }
     .hero__title--desc{
-        font-size: 21px;
-        margin-bottom: 36px;
+        font-size: rem(21px);
+        margin-bottom: rem(36px);
        padding-right: 10%;
        max-width: 100%;
     }

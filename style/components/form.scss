@@ -11,7 +11,7 @@
 
 .form_col{
     flex: 1;
-    margin-right: 20px;
+    margin-right: rem(20px);
     &:last-child{
         margin-right: 0;
     }
@@ -19,11 +19,11 @@
 
 .form_row{
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: rem(18px);
 }
  .form_block{
      flex: 1;
-     margin-right: 20px;
+     margin-right: rem(20px);
      &:last-child{
          margin-right: 0;
      }
@@ -32,11 +32,11 @@
  .form_input{
   width: 100%;
   border: none;
-  padding: 18px 11px; 
-  border: solid 3px transparent; 
-  border-radius: 5px;
+  padding: rem(18px) rem(11px); 
+  border: solid rem(3px) transparent; 
+  border-radius: rem(5px);
   &_textarea{
-      height: 180px;
+      height: rem(180px);
       resize: none;
   }
 
