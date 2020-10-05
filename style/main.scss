@@ -3,7 +3,6 @@ $baseFontSize: 18px;
 
 
 
-//breakpointes
 
 $tablets: 768px;
 $phones: 480px;
@@ -20,8 +19,9 @@ $z-index-menu: 100;
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,700;1,800;1,900&family=Play:wght@400;700&display=swap");
 
-@import"layout";
 @import"media";
+
+@import"layout";
 
 @import"components/hero";
 

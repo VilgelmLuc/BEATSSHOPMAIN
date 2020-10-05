@@ -1,22 +1,48 @@
 .hero{
-    background: url(../imgbeats/Ellipse5.png) right 24% top 22%;
-    background-color: $grey;
-    background-repeat: no-repeat;
+    background-color: $grey;    
     height: 100vh;
     min-height: rem(650px);
     color: #292929;
+    
     }
 
-  
-    .hero_title-section{
-        width: 45%;
+    .hero__icons-section{
+        @include tablets {
+            display: none;
+        }
     }
+
+
+    .hero__title-section{
+        width: 45%;
+
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        &:before{
+            content: url(../imgbeats/Ellipse5.png);
+        }
+    }
+
+    }
+
+
     .hero_container{
         display: flex;
         flex-direction: column;
        justify-content: flex-start;
       height: 100%;  
-      padding: 97 0 70;
+      padding: 97 0 70;    
+      background: url(../imgbeats/Ellipse5.png) right top 24%;
+      background-repeat: no-repeat;
+      @include tablets {
+        background: none;
+    }
 
     }
     .hero__main--title{
