@@ -12,6 +12,10 @@
         padding: 0 20%;
         flex-direction: column;
     }
+    @include phones {
+        padding: 0;
+        flex-direction: column;
+    }
 }
 
 .form__col{

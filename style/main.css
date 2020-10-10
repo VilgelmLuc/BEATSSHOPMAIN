@@ -411,6 +411,11 @@ footer {
   margin-bottom: 3.4444444444rem;
   padding: 0 20%;
 }
+@media screen and (max-width: 480px) {
+  .headline__subtitle {
+    padding: 0 3%;
+  }
+}
 
 .feedback__display {
   background: #F8FAF9;
@@ -542,6 +547,12 @@ footer {
 @media screen and (max-width: 768px) {
   .form {
     padding: 0 20%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 480px) {
+  .form {
+    padding: 0;
     flex-direction: column;
   }
 }
