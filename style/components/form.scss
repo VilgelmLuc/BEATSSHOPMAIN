@@ -7,6 +7,11 @@
 
 .form{
     display: flex;
+
+    @include tablets{
+        padding: 0 20%;
+        flex-direction: column;
+    }
 }
 
 .form__col{
@@ -50,4 +55,11 @@
  .form__controls{
      display: flex;
      flex-wrap: wrap;
+ }
+
+ .form_btns {
+     @include tablets {
+         display: flex;
+         justify-content: center;     
+        }
  }

@@ -2,6 +2,13 @@
     background:#F8FAF9;
 padding: rem(50px) rem(45px) rem(34px);
 margin-bottom: rem(30px);
+@include tablets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: rem(32px);
+}
 
 &:before{
     content: "";
@@ -19,12 +26,24 @@ top: rem(54px);
 
 .feedback__display--inner{
 display: flex;
+@include tablets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 }
 
 .feedback__avatar{
     width: rem(253px);
     height: rem(264px);
     margin-right: rem(40px);
+    @include tablets{
+        width: rem(130px);
+        height: rem(130px);
+        margin-bottom: rem(32px);
+    }
 }
 .feedback__avatar_img{
     object-fit: cover;
