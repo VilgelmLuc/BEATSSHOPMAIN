@@ -5,8 +5,7 @@ overflow: hidden;
 position: relative;
 border: rem(6px) solid transparent;
 border-radius: 50%;
-position: relative;
-overflow: hidden;
+
 &--active{
     border-color: $red;
 }

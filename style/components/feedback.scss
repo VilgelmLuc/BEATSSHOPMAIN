@@ -2,6 +2,14 @@
     background:#F8FAF9;
 padding: rem(50px) rem(45px) rem(34px);
 margin-bottom: rem(30px);
+opacity: 0;
+display: none;
+position: static;
+&-active{
+    opacity: 1;
+    display: inline-flex;
+}
+
 @include tablets {
     display: flex;
     flex-direction: column;
@@ -35,7 +43,9 @@ display: flex;
 }
 }
 
-.feedback__avatar{
+
+ 
+ .feedback__avatar{
     width: rem(253px);
     height: rem(264px);
     margin-right: rem(40px);
@@ -70,4 +80,4 @@ display: flex;
      font-size: rem(18px);
      font-weight: bold;
 color:black;
- }
+ } 
