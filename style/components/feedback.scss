@@ -4,10 +4,14 @@ padding: rem(50px) rem(45px) rem(34px);
 margin-bottom: rem(30px);
 opacity: 0;
 display: none;
-position: static;
-&-active{
+position: absolute;
+height: 100;
+overflow: hidden;
+ 
+&-active {
     opacity: 1;
     display: inline-flex;
+    height: 0;
 }
 
 @include tablets {
