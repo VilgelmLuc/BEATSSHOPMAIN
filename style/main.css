@@ -1012,3 +1012,18 @@ footer {
   margin-top: 24px;
   max-width: 365px;
 }
+
+.team--version--desktop {
+  display: flex;
+  align-items: center;
+}
+
+.section__title-team {
+  color: #292929;
+  font-size: 48px;
+  margin-bottom: 53px;
+}
+
+.team__item {
+  margin-right: 20px;
+}

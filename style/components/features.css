@@ -2,9 +2,9 @@
   display: flex;
 }
 
-.features_item {
-  margin-right: rem(8px);
+.features__item {
+  margin-right: rem(46px);
 }
-.features_item:last-child {
+.features__item:last-child {
   margin-right: 0;
 }
